@@ -1,0 +1,272 @@
+2025-08-18 20:49:15,866 - INFO - User asked: Hello, how are you?
+2025-08-18 20:49:17,495 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-08-18 20:52:56,397 - INFO - User asked: what is your return policy?
+2025-08-18 20:52:58,164 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-08-18 21:14:47,041 - INFO - User asked: what is your return policy
+2025-08-18 21:14:59,022 - INFO - Retrying request to /chat/completions in 0.390831 seconds
+2025-08-18 21:15:10,675 - INFO - Retrying request to /chat/completions in 0.842686 seconds
+2025-08-19 10:41:22,583 - INFO - User asked: What's your return policy?
+2025-08-19 10:41:24,587 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-08-19 11:08:17,469 - INFO - User asked: hi
+2025-08-19 11:08:19,127 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-08-19 11:16:57,642 - INFO - User asked: hi
+2025-08-19 11:16:59,105 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-08-19 11:22:14,724 - INFO - User asked: hi
+2025-08-19 11:24:14,673 - INFO - User asked: hi
+2025-08-19 11:24:16,622 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 11:24:16,638 - INFO - Bot replied: Hello! How can I assist you today?
+2025-08-19 11:24:33,534 - INFO - User asked: what is your return policy?
+2025-08-19 11:24:36,852 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 11:24:36,854 - INFO - Bot replied: Our return policy allows you to return items within 30 days of purchase for a full refund, provided they are in their original condition with all tags attached. Some exclusions may apply. Please check our website or contact customer support for more specific details.
+2025-08-19 11:39:26,423 - INFO - User asked: What about my last order
+2025-08-19 11:39:36,645 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 11:39:36,647 - INFO - Bot replied: Could you please provide me with your order number or details about your last order? This will help me check the status for you.
+2025-08-19 11:39:50,761 - INFO - User asked: id : 343543634
+2025-08-19 11:39:52,966 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 11:39:52,970 - INFO - Bot replied: I'm sorry, but I need more information about your query related to the ID 343543634. How can I assist you?
+2025-08-19 11:40:29,379 - INFO - User asked: This is my last order id can you check the status of my order
+2025-08-19 11:40:31,051 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 11:40:31,053 - INFO - Bot replied: I'm sorry, but I don't have the ability to check order statuses. Please visit the website or contact customer service for assistance with your order.
+2025-08-19 15:47:26,574 - INFO - User asked: hi
+2025-08-19 15:47:30,161 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:47:30,171 - INFO - Bot replied: Hello! How can I assist you today?
+2025-08-19 15:47:55,710 - INFO - User asked: What's your return policies about cancel order?
+2025-08-19 15:47:59,228 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:47:59,231 - INFO - Bot replied: Our return policy typically allows for order cancellations within a specific timeframe after purchase, usually 24-48 hours. After this period, cancellations may no longer be possible. Please check the specific terms on our website or contact customer support for detailed information regarding your order.
+2025-08-19 16:05:21,522 - INFO - [demo] user: hi
+2025-08-19 16:05:29,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:05:29,449 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 16:15:56,993 - INFO - [demo] user: hi
+2025-08-19 16:15:59,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:15:59,541 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 16:16:09,525 - INFO - [demo] user: how are you
+2025-08-19 16:16:12,035 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:16:12,038 - INFO - [demo] bot: I’m just a program, but I’m here and ready to help you! How can I assist you today?
+2025-08-19 16:18:48,279 - INFO - [demo] user: hi
+2025-08-19 16:18:52,045 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:18:52,058 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 16:18:55,723 - INFO - [demo] user: how are you
+2025-08-19 16:18:57,163 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:18:57,167 - INFO - [demo] bot: I'm just a program, but I'm here and ready to help you! How can I assist you today?
+2025-08-19 16:21:28,030 - INFO - [demo] user: hi
+2025-08-19 16:21:31,173 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:21:31,176 - INFO - [demo] bot: Hi again! How can I help you?
+2025-08-19 16:22:04,699 - INFO - [demo] user: hi
+2025-08-19 16:22:05,988 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:22:05,991 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 16:26:51,599 - INFO - [demo] user: hi
+2025-08-19 16:26:53,937 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:26:53,952 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 16:36:31,129 - INFO - [demo] user: hi
+2025-08-19 16:36:37,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:36:37,728 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 16:38:05,772 - INFO - [demo] user: hi
+2025-08-19 16:38:07,721 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:07,722 - INFO - [demo] bot: Hi again! How can I help you?
+2025-08-19 16:38:09,276 - INFO - [demo] user: hi
+2025-08-19 16:38:10,405 - INFO - [demo] user: i
+2025-08-19 16:38:10,413 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:10,414 - INFO - [demo] bot: Hello! If you have any questions or need assistance, feel free to ask!
+2025-08-19 16:38:13,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:13,255 - INFO - [demo] bot: It seems like your message got cut off. How can I assist you?
+2025-08-19 16:38:17,302 - INFO - [demo] user: hi
+2025-08-19 16:38:29,620 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:29,910 - INFO - [demo] bot: Hello! How can I help you today?
+2025-08-19 16:38:32,961 - INFO - [demo] user: hi how are you
+2025-08-19 16:38:37,633 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:37,636 - INFO - [demo] bot: I'm just a program, but I'm here and ready to help you! How can I assist you today?
+2025-08-19 16:45:03,471 - INFO - [demo] user: hi
+2025-08-19 16:45:08,568 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:45:08,574 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 17:38:07,126 - INFO - [demo] user: hi
+2025-08-19 17:38:09,460 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:38:09,468 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 17:39:03,815 - INFO - [demo] user: hi
+2025-08-19 17:39:06,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:39:06,497 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 17:43:21,633 - INFO - [demo] user: hi
+2025-08-19 17:43:25,662 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:43:25,669 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 17:43:38,678 - INFO - [demo] user: what is your return poicy
+2025-08-19 17:43:41,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:43:41,945 - INFO - [demo] bot: Our return policy allows you to return items within 30 days of purchase for a full refund or exchange, provided they are in their original condition and packaging. Some items may have specific return guidelines, so it's best to check the details for each product. If you need further assistance, please let me know!
+2025-08-19 17:46:09,832 - INFO - [demo] user: hi
+2025-08-19 17:46:12,575 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:46:12,587 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 17:46:21,705 - INFO - [demo] user: hi
+2025-08-19 17:46:23,734 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:46:23,736 - INFO - [demo] bot: Hi again! How can I help you?
+2025-08-19 17:48:51,596 - INFO - [demo] user: hi
+2025-08-19 17:48:53,850 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:48:53,855 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 17:51:39,950 - INFO - [demo] user: hi
+2025-08-19 17:51:41,950 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:51:41,960 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 17:51:51,150 - INFO - [demo] user: how are you
+2025-08-19 17:51:52,742 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:51:52,745 - INFO - [demo] bot: I’m just a program, but I’m here and ready to help you! How can I assist you today?
+2025-08-19 17:52:15,701 - INFO - [demo] user: what is your current rate of all items
+2025-08-19 17:52:17,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:52:17,565 - INFO - [demo] bot: I don’t have access to real-time data or specific pricing information. For current rates of items, please check the relevant website or contact customer service for the specific store or service you’re interested in. How else may I assist you?
+2025-08-19 17:52:35,704 - INFO - [demo] user: what is your return policy
+2025-08-19 17:52:38,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:52:38,008 - INFO - [demo] bot: I don’t have a specific return policy since I’m not affiliated with any particular store. Return policies can vary by retailer. Generally, most stores allow returns within a certain timeframe, often with a receipt. I recommend checking the website of the specific retailer or contacting their customer service for detailed information. If you need help with something else, feel free to ask!
+2025-08-19 18:03:29,906 - INFO - [demo] user: hi
+2025-08-19 18:03:32,233 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 18:03:32,236 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 18:06:27,208 - INFO - [demo] user: hi
+2025-08-19 18:06:29,593 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 18:06:29,607 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 18:07:23,327 - INFO - [demo] user: hi
+2025-08-19 18:07:25,808 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 18:07:25,817 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 18:09:49,279 - INFO - [demo] user: hi
+2025-08-19 18:09:51,714 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 18:09:51,719 - INFO - [demo] bot: Hello! How can I assist you today?
+2025-08-19 18:11:30,507 - INFO - [demo] user: how are you
+2025-08-19 18:11:32,897 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 18:11:32,900 - INFO - [demo] bot: I'm just a program, but I'm here and ready to help you! How can I assist you today?
+2025-08-19 20:58:19,888 - INFO - [demo] user: hi
+2025-08-19 20:58:19,895 - INFO - Retrying request to /chat/completions in 0.473574 seconds
+2025-08-19 20:58:20,378 - INFO - Retrying request to /chat/completions in 0.923433 seconds
+2025-08-19 20:58:21,304 - ERROR - OpenAI error
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 972, in request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\handsoff\app\main.py", line 56, in chat_with_bot
+    resp = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=messages,
+        temperature=0.2
+    )
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<43 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1249, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1004, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2025-08-19 20:58:43,201 - INFO - [demo] user: hi
+2025-08-19 20:58:47,203 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 20:58:47,206 - INFO - [demo] bot: Hi again! How can I help you?
+2025-08-19 21:17:46,130 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:17:49,768 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:17:49,775 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-19 21:18:08,585 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: what is weather condition in uk
+2025-08-19 21:18:10,999 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:18:11,003 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: I don't have real-time data access to provide current weather conditions. I recommend checking a reliable weather website or app for the latest updates on the weather in the UK. Is there anything else I can help you with?
+2025-08-19 21:20:07,019 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:20:09,848 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:20:09,849 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello again! How can I help you?
+2025-08-19 21:21:49,840 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:21:53,888 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:21:53,899 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-19 21:23:25,879 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:23:28,505 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:23:28,506 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hi again! How can I help you?
+2025-08-19 21:29:43,982 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:29:46,073 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:29:46,077 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! If you have any questions or need assistance, feel free to ask!
+2025-08-19 21:30:41,767 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:30:44,727 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:30:44,734 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-19 21:34:55,876 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:34:58,673 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:34:58,678 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-19 21:38:00,365 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:38:03,406 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:38:03,411 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-19 21:45:49,622 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:45:53,993 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:45:54,007 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-19 21:48:26,458 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:48:29,477 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:48:29,488 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-19 21:52:15,430 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-19 21:52:18,458 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 21:52:18,462 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-20 09:06:18,803 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-20 09:06:22,450 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-20 09:06:22,505 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-20 09:31:51,448 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: hi
+2025-08-20 09:31:53,735 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-20 09:31:53,748 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Hello! How can I assist you today?
+2025-08-20 09:32:05,554 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: what is your return policy
+2025-08-20 09:32:07,988 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-20 09:32:07,991 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: Our return policy typically allows for returns within 30 days of purchase, provided the item is in its original condition and packaging. Some items may have specific return guidelines. For detailed information, please check the return policy on our website or contact customer support directly. How else can I help you?
+2025-08-20 09:32:29,618 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] user: who is prime minister of pakistan'
+2025-08-20 09:32:31,621 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-20 09:32:31,625 - INFO - [b407a2ad-0d8b-4ef7-baa7-3504ae46d22b-1755620255714] bot: As of my last update in October 2023, the Prime Minister of Pakistan is Anwar ul Haq Kakar. However, please verify with a current source, as political positions can change.
