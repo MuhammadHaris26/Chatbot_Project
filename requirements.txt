@@ -1,7 +1,9 @@
 fastapi
 uvicorn
-openai
-flask-cors
-flask
 gunicorn
+python-dotenv
+openai
+flask
+flask-cors
+
 
