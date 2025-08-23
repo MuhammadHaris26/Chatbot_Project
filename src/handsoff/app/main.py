@@ -57,14 +57,17 @@ def chat_with_bot(req: ChatRequest, request: Request):
 
     try:
         resp = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-4o-mini",   # 🔴 confirm karo ke yehi model tumhare account pe available hai
             messages=messages,
             temperature=0.2
         )
         bot = resp.choices[0].message.content
     except Exception as e:
-        logging.exception("OpenAI error")
-        raise HTTPException(status_code=502, detail=f"Model error: {e}")
+        import traceback
+        error_text = "".join(traceback.format_exception(type(e), e, e.__traceback__))
+        print("🚨 OpenAI API ERROR 🚨")
+        print(error_text)
+        raise HTTPException(status_code=502, detail=f"Model error: {str(e)}")
 
     Memory[session].append({"role":"user","content":user_msg})
     Memory[session].append({"role":"assistant","content":bot})
