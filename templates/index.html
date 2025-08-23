@@ -151,6 +151,24 @@
       appendMessage("⚠️ Server error!", "bot");
     }
   }
+  // ✅ Ye function Step 3 ka part hai
+async function loadMessages() {
+  const response = await fetch("http://127.0.0.1:8000/messages");
+  const data = await response.json();
+  const chatBox = document.getElementById("chat-box");
+  chatBox.innerHTML = "";
+
+  data.messages.forEach(msg => {
+    const messageElement = document.createElement("div");
+    messageElement.classList.add("message", msg.sender);
+    messageElement.textContent = `${msg.sender}: ${msg.text}`;
+    chatBox.appendChild(messageElement);
+  });
+}
+
+// ✅ Page load hone par history dikhane k liye
+window.onload = loadMessages;
+
 
   // enter + button
   sendBtn.addEventListener("click", sendMessage);
