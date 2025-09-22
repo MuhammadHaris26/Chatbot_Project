@@ -36,13 +36,13 @@
   }
 
   .user {
-    background-color: #dcf8c6; /* WhatsApp green */
+    background-color: #dcf8c6;
     align-self: flex-end;
     border-bottom-right-radius: 0;
   }
 
   .bot {
-    background-color: #ececec; /* light gray */
+    background-color: #ececec;
     align-self: flex-start;
     border-bottom-left-radius: 0;
   }
@@ -83,11 +83,11 @@
 </div>
 
 <script>
-  const chatBox   = document.getElementById("chat"); // Corrected ID
+  const chatBox = document.getElementById("chat");
   const userInput = document.getElementById("userInput");
-  const sendBtn   = document.getElementById("sendBtn");
+  const sendBtn = document.getElementById("sendBtn");
 
-  // session id
+  // --- Session ID ---
   const SESSION_KEY = "chat_session_id";
   function getSessionId() {
     let id = localStorage.getItem(SESSION_KEY);
@@ -99,7 +99,7 @@
   }
   const sessionId = getSessionId();
 
-  // message append
+  // --- Append message ---
   function appendMessage(text, sender) {
     const msg = document.createElement("div");
     msg.classList.add("message", sender);
@@ -108,23 +108,22 @@
     chatBox.scrollTop = chatBox.scrollHeight;
   }
 
-  // history load
+  // --- Load chat history ---
   async function loadHistory() {
     try {
-      const res = await fetch(`http://127.0.0.1:8001/history/${sessionId}`);
+      const res = await fetch(`http://127.0.0.1:8000/history?session_id=${sessionId}`);
       const data = await res.json();
       chatBox.innerHTML = "";
-      data.history.forEach(msg => {
-        appendMessage(msg.text, msg.sender);
+      data.messages.forEach(msg => {
+        const sender = msg.role === "user" ? "user" : "bot";
+        appendMessage(msg.content, sender);
       });
     } catch (err) {
       console.error("History load error:", err);
     }
   }
 
-  window.onload = loadHistory;
-
-  // send message
+  // --- Send message ---
   async function sendMessage() {
     const text = userInput.value.trim();
     if (!text) return;
@@ -138,7 +137,7 @@
     chatBox.appendChild(typing);
 
     try {
-      const res = await fetch("http://127.0.0.1:8001/chat", {
+      const res = await fetch("http://127.0.0.1:8000/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: text, session_id: sessionId })
@@ -151,31 +150,21 @@
       appendMessage("⚠️ Server error!", "bot");
     }
   }
-  // ✅ Ye function Step 3 ka part hai
-async function loadMessages() {
-  const response = await fetch("http://127.0.0.1:8000/messages");
-  const data = await response.json();
-  const chatBox = document.getElementById("chat-box");
-  chatBox.innerHTML = "";
 
-  data.messages.forEach(msg => {
-    const messageElement = document.createElement("div");
-    messageElement.classList.add("message", msg.sender);
-    messageElement.textContent = `${msg.sender}: ${msg.text}`;
-    chatBox.appendChild(messageElement);
+  // --- Page load ---
+  window.addEventListener("load", () => {
+    loadHistory();
   });
-}
 
-// ✅ Page load hone par history dikhane k liye
-window.onload = loadMessages;
-
-
-  // enter + button
+  // --- Button + Enter key ---
   sendBtn.addEventListener("click", sendMessage);
   userInput.addEventListener("keydown", e => { 
-    if (e.key === "Enter") { e.preventDefault(); sendMessage(); }
+    if (e.key === "Enter") { 
+      e.preventDefault(); 
+      sendMessage(); 
+    }
   });
-</script>
 
+</script>
 </body>
 </html>
