@@ -8,9 +8,15 @@ import os, logging
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# --- setup ---
+
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+import os
+from openai import OpenAI
+
+print("🔑 OPENAI_API_KEY loaded:", os.getenv("OPENAI_API_KEY"))
+
+
+client = OpenAI()
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
