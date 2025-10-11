@@ -1,1 +1,2 @@
-web: uvicorn src.handsoff.app.main:app --host 0.0.0.0 --port 8000
+web: python -m uvicorn src.handsoff.app.main:app --host 0.0.0.0 --port $PORT
+
